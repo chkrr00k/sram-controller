@@ -24,7 +24,7 @@ entity sramTest is
 		SRAM_OE_N           : out   std_logic;
 		SRAM_WE_N           : out   std_logic;
 		SRAM_UB_N           : out   std_logic;
-		SRAM_LB_N           : out   std_logic;
+		SRAM_LB_N           : out   std_logic
 		
 	);
 end;
