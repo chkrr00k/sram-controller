@@ -1,7 +1,7 @@
 library ieee;
 use ieee.numeric_std.all;
 use ieee.std_logic_1164.all;
-use work.mario_package.all;
+use work.sramTest.all;
 
 entity sram is 
 	port (
