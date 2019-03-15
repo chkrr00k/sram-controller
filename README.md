@@ -4,6 +4,7 @@ A simple sram controller and test for the altera DE1 FPGA board
 ## Use
 
 ```
+-- general
 		CLOCK 		: in std_logic; -- clock in
 		RESET_N		: in std_logic; -- reset async
 
@@ -25,3 +26,7 @@ A simple sram controller and test for the altera DE1 FPGA board
 		SRAM_LB_N   : out std_logic -- lower byte mask
     
 ```
+
+### Tests
+in the ./Test folder there is a sample of how this controller should be used.  
+It's not certified to work "as it is" but it sould give the general idea
